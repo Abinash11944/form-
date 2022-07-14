@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(68, 98, 170);
+    
+}
+
+.nav2 li {
+    float: right;
+    justify-content: space-between;
+    display: inline;
+    font-size: 10px;
+    margin-left: 19px;
+    color: white;
+    font-size: 17px;
+    max-width: 210px;
+    margin: 10px;
+}
+
+.nav2 {
+    margin-left: 300px;
+}
+
+.nav1 p {
+    font-size: 17px;
+    color: white;
+    margin-left: 45px;
+    margin-top: 10px;
+    height: 12px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 900;
+}
+
+.nav1 {
+    background-color: rgb(68, 98, 170);
+    
+}
+
+.nav2 {
+    background-color: rgb(68, 98, 170);
+}
+
+.container {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border: 1px solid black;
+    margin: 80px;
+    height: 400px;
+    border-top:  6px solid rgb(68, 98, 170);
+    color: rgb(240,248, 250);
+}
+
+.head {
+    margin: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.head p {
+    color: rgb(68, 98, 170);
+    
+}
+
+/* .form {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 140px;
+    line-height: 10px;
+    
+    
+}
+
+.form input {
+    width: 29%;
+    height: 30px;
+    
+}
+.form label {
+    
+    margin-left:25px;
+}
+
+.select {
+    margin-right: 360px;
+}
+
+.select1 {
+    margin-right: 280px;
+} */
+
+.bt button {
+    margin: 60px;
+    color: white;
+    font-size: 30px;
+    background-color: rgb(68, 98, 170);
+    width: 100px;
+    margin-left: 450px;
+    
+}
+
+/* .bt {
+   
+} */
+
+.select {
+    margin-left:190px;
+}
+
+.select1 {
+    margin-left:70px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgb(68, 98, 170);
+    color: #fff;
+    padding-bottom: 20px;
+    line-height: 20px;
+    margin-top: 120px;
+    font-size: 20px;
+}
+.one{
+    margin-right:89px;
+}
+.full{
+   overflow-x: none;
+}
+.row3{
+    margin-left: 410px;
+}
+.col3{
+    font-size: 29px;
+
+}
+.col3 input{
+    width: 30%;
+    height: 28px;
+    font-size: large;
+}
+.col4{
+    font-size: 29px;
+    margin-left:-16px;
+}
+.col5{
+    font-size: 29px;
+    margin-left:77px;
+}
+.first{
+    display: flex;
+    margin-left: 450px;
+}
+.nd {
+    display: flex;
+    margin-left: 450px;
+}
+.rd {
+    display: flex;
+    margin-left: 450px;
+}
+.label1{
+    font-size:25px;
+    margin-left:-170px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.input1{
+    margin-top:1px;
+    padding-left: 10px; 
+   
+        
+}
+
+.label2{
+    font-size:25px; 
+    margin-left:-188px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+
+}
+.option1{
+    margin-top:1px ;
+    padding-left:10px;
+    background-color: transparent;
+    
+     
+}
+.label3{
+    font-size:25px; 
+    margin-left:-100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.option2{
+    margin-top:2px ;
+    padding-left: 10px;
+    border-radius:.25rem;
+}
+.nav1 p:hover{
+    color: rgba(214, 108, 70, 0.89);
+    cursor: pointer;
+
+}
+.nav2 p:hover{
+    color: rgb(221, 105, 62);
+    cursor: pointer;
+}
+
+.bt button:hover{
+    background-color: rgb(19, 10, 104);
+    cursor: pointer;
+} 
+.bt button{
+    font-family: Times New Roman Times, serif;
+    border: none;
+}
+.head p{
+    font-size: 27px;
+}
+@media screen and (max-width: 600px) {
+   .nav1 p{
+      margin-right:180px;
+      margin: 15px;
+      font-size:15px;
+    }
+    .nav2 {
+        margin-left:0px;
+        width: 90%; 
+        padding: 2px;
+        
+       
+    }
+    .nav{
+        width: 100%;
+    }
+    .nav2 p{
+        font-size: 12px;
+    }
+   .container{
+    margin-left:5px;
+    width: 95%;
+    margin-top:10px;
+    padding-bottom: 100px;
+   }
+   .head p{
+    margin:0;
+    font-size:19px;
+   }
+   
+ .first{
+    margin-left: 0px;
+ }
+ .label1 {
+    font-size: 21px;
+  margin-left:135px;
+ }
+ .input1{
+    margin-top:50px;
+    margin-left:-230px;
+   
+ }
+ .nd{
+    margin-left:195px;
+   
+ }
+ .label2{
+    font-size: 21px;
+  margin-left:-55px;
+ }
+ .option1{
+    margin-top:55px;
+    margin-left:-280px;
+ } 
+ .rd{
+    margin-left:100px;
+ } 
+ .option2{
+    margin-top:45px;
+    margin-left:-260px;
+   
+ }
+ .label3{
+    margin-left:35px;
+    font-size: 21px;
+ }
+ .bt{
+    margin-left:-319px;
+ }
+ input {
+    display: block;
+    width: 34px;
+  }
+  label,
+  select {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+     input{
+      width: 70%;
+      
+    }
+  }
